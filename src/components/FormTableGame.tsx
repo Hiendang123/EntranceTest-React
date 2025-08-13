@@ -36,7 +36,7 @@ const FormTableGame = () => {
             }`}
           >
             {isGameComplete
-              ? "All Cleared"
+              ? "All CLEARED"
               : isGameOver
               ? "GAME OVER"
               : "LET'S PLAY"}

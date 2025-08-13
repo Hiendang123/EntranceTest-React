@@ -48,7 +48,6 @@ const GameArea: React.FC<GameAreaProps> = ({
   useGameCompletion({
     isPlaying,
     circles,
-    points,
     onGameComplete,
     onStopTimer,
   });

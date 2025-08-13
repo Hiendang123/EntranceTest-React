@@ -13,7 +13,6 @@ interface Circle {
 interface UseGameCompletionProps {
   isPlaying: boolean;
   circles: Circle[];
-  points: number;
   onGameComplete?: () => void;
   onStopTimer?: () => void;
 }
@@ -21,7 +20,6 @@ interface UseGameCompletionProps {
 export const useGameCompletion = ({
   isPlaying,
   circles,
-  points,
   onGameComplete,
   onStopTimer,
 }: UseGameCompletionProps) => {
